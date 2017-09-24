@@ -5,7 +5,7 @@ This is a straightforward reversing problem. The program asks for a large number
 of command line arguments, each one a single byte. It then performs checks on them,
 three characters at a time. Here is the first check in Hopper.
 
-![Asm](hopper.png)
+![Asm](img/hopper.png)
 
 The program only checks 3 bytes at a time, and performs the same calculations,
 only requiring different results for each one. This checks were solved
